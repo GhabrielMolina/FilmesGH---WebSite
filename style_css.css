@@ -1,0 +1,161 @@
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+    padding-top: 150px;
+    background-color: rgba(0, 0, 0, 0.897);
+}
+
+    header{             
+        background-color: #db0505;
+        width: 100%;
+        display: flex;
+        padding: 1px;           
+        position: fixed;        
+        top: 0%;               
+    }
+
+        header figure{
+            display: flex;
+            width: 100%;
+            align-items: center;
+        }
+
+            header figure img{
+                max-width: 200px;
+            }
+
+            header figure figcaption{
+                text-transform: uppercase;      
+                font-weight: bold;      
+                font-size: 30px;
+            }
+
+        header nav{
+            width: 300px;
+        }
+
+            header nav ul{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: 100%;
+                margin-right: 60px;
+            }
+
+                header nav ul li{}
+
+                    header nav ul li a{
+                        color: black;
+                        font-size: 20px;
+                        font-weight: 400px;
+                    }
+    
+    .container{
+        width: 100%;
+        max-width: 1500px;
+        margin: 0 auto;     
+    }
+    
+    section{}
+                    
+        section p{
+            color: #fff;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 20px;
+            font-weight: bolder;
+            letter-spacing: 3px;       
+        }
+
+        section ul.secaoCategorias{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin: 50px 0 50px;        
+            font-size: 18px;
+        }
+            section ul.secaoCategorias li{}
+
+                section ul.secaoCategorias li a{
+                    color: aliceblue;
+                    background-color: black;
+                    display: block;
+                    width: 120px;
+                    text-align: center;
+                    border-radius: 50px;        
+                    padding: 10px;
+                }
+    
+        div.pesquisa{
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            width: 100%;
+            margin: 0 0 50px;
+        }
+            div.pesquisa input{
+                background-color: black;
+                color: aliceblue;
+                height: 30px;
+                width: 180px;
+                text-align: left;
+                font-size: 12px;
+            }
+
+            div.pesquisa button{
+                background-color: black;
+                color: aliceblue;
+                height: 30px;
+                text-align: center;
+                font-size: 12px;
+            }
+        
+        section ul.listaFilmes{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;    
+        }
+            
+            section ul.listaFilmes li{
+                max-width: 185px;
+                cursor: pointer;
+                margin:50px;
+            }
+
+                section ul.listaFilmes li figure{}
+
+                    section ul.listaFilmes li figure img{
+                        width: 100%;
+                    }
+
+                section ul.listaFilmes li h2{
+                    color: #fff;
+                    font-size: 15px;
+                    text-align: center;
+                    padding: 10px;
+                    overflow: hidden;       
+                    white-space: nowrap;    
+                    text-overflow: ellipsis;    
+                }
+
+    footer{
+        background-color: #db0505;
+        padding: 10px;
+        
+    }
+
+        footer h4{
+            font-size: 20px;
+            font-weight: bolder;
+        }
+
+        footer ul{
+            color: black;
+            font-style: italic;
+            margin: 0px 0px 15px;
+        }
+            footer ul li{}
+
+/* CODE BY GHABRIEL MOLINA */
